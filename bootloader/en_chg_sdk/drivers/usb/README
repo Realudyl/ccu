@@ -1,0 +1,4 @@
+该文件夹内的文件，是从GD官方USB例程<GD32H7xx_Firmware_Library_V1.2.0\Examples\USBHS\usb_host\usb_host_msc_udisk>中移植过来，并已经根据H7当前时钟频率(400M主频)进行项目适配，具体改动内容为：
+1、TIM2定时器的分频系数，改动的地方都有注释标注过分频公式。
+2、增加硬件初始化函数，便于用户层调用初始化。
+

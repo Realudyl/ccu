@@ -1,0 +1,20 @@
+file := "mod_drv_env2h_data_def"
+
+run: build decode act clean
+
+@build:
+    cd v2h_tool && cargo build --release
+    cp v2h_tool/target/release/v2h_tool ./
+
+decode:
+    cat {{file}}.h > {{file}}.md
+
+act:
+    ./v2h_tool.exe
+
+clean:
+    -rm {{file}}.md
+
+cleanall:
+    -rm *.md
+    -rm v2h_tool.exe

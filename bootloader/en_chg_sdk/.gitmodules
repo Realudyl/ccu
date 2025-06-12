@@ -1,0 +1,4 @@
+[submodule "app/en_private"]
+	path = app/en_private
+	url = http://10.30.50.43/charger-firmware/platform/en_private.git
+	branch = private_0.0.5

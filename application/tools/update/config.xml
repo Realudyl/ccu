@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--H7平台直流桩产品信息列表-->
+<DeviceType>
+  <device TYPE="0xFF" NAME="DC480K-G2SF312-250">
+    <!--480KW风冷终端CCU固件-->
+    <board NAME="CCU" LIST="0"/>
+  </device>
+  <device TYPE="0xFF" NAME="DC480K-G2SF311-600">
+    <!--480KW液冷终端CCU固件-->
+    <board NAME="CCU" LIST="0"/>
+  </device>
+  <device TYPE="0xFF" NAME="DC480K-G2PF310">
+    <!--480KW主柜PCU+SCU固件-->
+    <board NAME="PCU" LIST="1"/>
+    <board NAME="SCU" LIST="2"/>
+  </device>
+  <device TYPE="0xFF" NAME="DC120K-G2IE212-250">
+    <!--国标降本120kw CCU固件-->
+    <board NAME="CCU" LIST="0"/>
+  </device>
+</DeviceType>

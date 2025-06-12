@@ -1,0 +1,120 @@
+[submodule "application/en_chg_sdk"]
+	path = application/en_chg_sdk
+	url = http://10.30.50.43/charger-firmware/platform/Sdk/en_chg_sdk_h7.git
+	branch = 1.0.21
+[submodule "application/tools"]
+	path = application/tools
+	url = http://10.30.50.43/charger-firmware/platform/tool/tools.git
+	branch = CCU_0.0.1
+[submodule "bootloader/en_chg_sdk"]
+	path = bootloader/en_chg_sdk
+	url = http://10.30.50.43/charger-firmware/platform/Sdk/en_chg_sdk_h7.git
+	branch = 1.0.13
+[submodule "application/libraries/GD32H7xx_Firmware_Library_V1.2.0"]
+	path = application/libraries/GD32H7xx_Firmware_Library_V1.2.0
+	url = http://10.30.50.43/charger-firmware/platform/library/gd32h7xx_firmware_library_v1.2.0.git
+	branch = h7_1.0.1
+[submodule "bootloader/libraries/GD32H7xx_Firmware_Library_V1.2.0"]
+	path = bootloader/libraries/GD32H7xx_Firmware_Library_V1.2.0
+	url = http://10.30.50.43/charger-firmware/platform/library/gd32h7xx_firmware_library_v1.2.0.git
+	branch = h7_1.0.1
+
+
+
+#submodule of user code @app
+[submodule "application/user/app/cooling"]
+	path = application/user/app/cooling
+	url = http://10.30.50.43/charger-firmware/platform/user/cooling.git
+	branch = Eternity_0.0.2
+[submodule "application/user/app/eeprom"]
+	path = application/user/app/eeprom
+	url = http://10.30.50.43/charger-firmware/platform/user/eeprom.git
+	branch = CCU_0.0.4
+[submodule "application/user/app/fault"]
+	path = application/user/app/fault
+	url = http://10.30.50.43/charger-firmware/platform/user/fault.git
+	branch = CCU_0.0.2
+[submodule "application/user/app/gpio"]
+	path = application/user/app/gpio
+	url = http://10.30.50.43/charger-firmware/platform/user/gpio.git
+	branch = CCU_0.0.5
+[submodule "application/user/app/iso"]
+	path = application/user/app/iso
+	url = http://10.30.50.43/charger-firmware/platform/user/iso.git
+	branch = iso_0.0.6
+[submodule "application/user/app/led"]
+	path = application/user/app/led
+	url = http://10.30.50.43/charger-firmware/platform/user/led.git
+	branch = CCU_0.0.2
+[submodule "application/user/app/module"]
+	path = application/user/app/module
+	url = http://10.30.50.43/charger-firmware/platform/user/module.git
+	branch = CCU_0.0.10
+[submodule "application/user/app/order"]
+	path = application/user/app/order
+	url = http://10.30.50.43/charger-firmware/platform/user/order.git
+	branch = order_0.0.3
+[submodule "application/user/app/pwm"]
+	path = application/user/app/pwm
+	url = http://10.30.50.43/charger-firmware/platform/user/pwm.git
+	branch = CCU_0.0.2
+[submodule "application/user/app/sample"]
+	path = application/user/app/sample
+	url = http://10.30.50.43/charger-firmware/platform/user/sample.git
+	branch = CCU_0.0.4
+[submodule "application/user/app/usb"]
+	path = application/user/app/usb
+	url = http://10.30.50.43/charger-firmware/platform/user/usb.git
+	branch = h7_0.0.2
+
+
+
+#submodule of user code @boot
+[submodule "bootloader/user/app/cooling"]
+	path = bootloader/user/app/cooling
+	url = http://10.30.50.43/charger-firmware/platform/user/cooling.git
+	branch = Eternity_0.0.1
+[submodule "bootloader/user/app/boot"]
+	path = bootloader/user/app/boot
+	url = http://10.30.50.43/charger-firmware/platform/user/boot.git
+	branch = CCU_0.0.1
+[submodule "bootloader/user/app/eeprom"]
+	path = bootloader/user/app/eeprom
+	url = http://10.30.50.43/charger-firmware/platform/user/eeprom.git
+	branch = CCU_0.0.2
+[submodule "bootloader/user/app/fault"]
+	path = bootloader/user/app/fault
+	url = http://10.30.50.43/charger-firmware/platform/user/fault.git
+	branch = CCU_0.0.1
+[submodule "bootloader/user/app/gpio"]
+	path = bootloader/user/app/gpio
+	url = http://10.30.50.43/charger-firmware/platform/user/gpio.git
+	branch = CCU_0.0.3
+[submodule "bootloader/user/app/iso"]
+	path = bootloader/user/app/iso
+	url = http://10.30.50.43/charger-firmware/platform/user/iso.git
+	branch = iso_0.0.3
+[submodule "bootloader/user/app/led"]
+	path = bootloader/user/app/led
+	url = http://10.30.50.43/charger-firmware/platform/user/led.git
+	branch = CCU_0.0.2
+[submodule "bootloader/user/app/module"]
+	path = bootloader/user/app/module
+	url = http://10.30.50.43/charger-firmware/platform/user/module.git
+	branch = CCU_0.0.6
+[submodule "bootloader/user/app/order"]
+	path = bootloader/user/app/order
+	url = http://10.30.50.43/charger-firmware/platform/user/order.git
+	branch = order_0.0.3
+[submodule "bootloader/user/app/pwm"]
+	path = bootloader/user/app/pwm
+	url = http://10.30.50.43/charger-firmware/platform/user/pwm.git
+	branch = CCU_0.0.2
+[submodule "bootloader/user/app/sample"]
+	path = bootloader/user/app/sample
+	url = http://10.30.50.43/charger-firmware/platform/user/sample.git
+	branch = CCU_0.0.2
+[submodule "bootloader/user/app/usb"]
+	path = bootloader/user/app/usb
+	url = http://10.30.50.43/charger-firmware/platform/user/usb.git
+	branch = h7_0.0.1
